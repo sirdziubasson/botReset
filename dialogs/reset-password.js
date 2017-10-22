@@ -8,7 +8,7 @@ library.dialog('/', [
         session.beginDialog('validators:phonenumber', {
             prompt: 'Please enter your phone number:',
             retryPrompt: 'The value entered is not phone number. Please try again using the following format (xyz) xyz-wxyz:',
-            maxRetries: 2
+            maxRetries: 1
         });
     },
     (session, args) => {
