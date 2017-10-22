@@ -27,7 +27,7 @@ var bot = new builder.UniversalBot(connector, [
         if (result.response) {
             switch (result.response.entity) {
                 case ChangePasswordOption:
-                    session.send('This functionality is not yet implemented! Try resetting your password, dude.');
+                    session.send('This functionality is not yet implemented! Try resetting your password, dude, okay?.');
                     session.reset();
                     break;
                 case ResetPasswordOption:
